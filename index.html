@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Gallery Retro</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="header-controls">
+      <h1>🍽️ Encyclopedia of Foods</h1>
+      <button id="backToMain">← Kembali</button>
+    </div>
+  </header>
+
+  <section class="intro">
+    <p>Website ini berisi penjelasan lengkap tentang makanan: asal mula, bahan, dan cara membuatnya. Jelajahi berbagai makanan populer dari seluruh dunia! <strong>Klik kartu makanan untuk melihat detail lengkap.</strong></p>
+  </section>
+
+  <!-- CONTAINER UTAMA (TAMPILAN GRID) -->
+  <div class="food-container" id="mainContainer">
+
+    <!-- COOKIES -->
+    <div class="card" data-food-type="cookies">
+      <img src="cookies.jpg" alt="Cookies">
+      <h2>Cookies</h2>
+      <p><b>Asal Mula</b><br>
+      Cookies pertama kali muncul di Persia pada abad ke-7. Pada masa itu, pembuat roti membuat adonan kecil untuk mengetes suhu oven sebelum memanggang kue besar. Kebiasaan ini ternyata menghasilkan camilan kecil yang renyah, dan dari situlah cookies lahir.
+      Kata "cookie" berasal dari bahasa Belanda "koekje" yang artinya kue kecil. Seiring perdagangan dan migrasi, cookies masuk ke Eropa, lalu ke Amerika, dan akhirnya berkembang menjadi berbagai varian modern seperti chocolate chip, butter cookies, hingga soft baked.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 120 g mentega<br>
+      • 90 g gula pasir<br>
+      • 90 g gula coklat (opsional)<br>
+      • 1 butir Telur<br>
+      • 180 g tepung terigu<br>
+      • ½ sdt baking soda<br>
+      • ½ sdt garam<br>
+      • Choco chips atau topping lain (opsional)</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Kocok mentega, gula pasir, dan gula coklat sampai lembut.<br>
+      2. Masukkan telur, aduk hingga rata.<br>
+      3. Tambahkan tepung, baking soda, dan garam. aduk sampai membentuk adonan.<br>
+      4. Masukkan choco chips, aduk perlahan.<br>
+      5. Ambil adonan, bulatkan kecil-kecil, lalu tata di loyang.<br>
+      6. Panggang 10–15 menit pada suhu ±170°C hingga kecoklatan di pinggir.<br>
+      7. Dinginkan sebentar hingga mengeras dan siap disajikan.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- ICE CREAM -->
+    <div class="card" data-food-type="icecream">
+      <img src="icecream.jpg" alt="Ice Cream">
+      <h2>Ice Cream</h2>
+      <p><b>Asal Mula:</b><br>
+      Ice cream dipercaya berasal dari Cina ribuan tahun lalu ketika mereka mencampur salju dengan susu dan perasa sederhana. Konsep makanan dingin ini kemudian menyebar ke Persia dan Arab yang menciptakan sherbet (sirup buah dingin). Dari sana, teknik pembekuan menyebar ke Italia, lalu ke Eropa Barat. Ketika ice cream diperkenalkan di Amerika, mesin churn modern diciptakan dan membuat ice cream menjadi dessert global yang lembut dan creamy.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 250 ml susu atau krim<br>
+      • 3 sdm gula<br>
+      • 1 sdt vanilla (atau perasa lain)<br>
+      • Es batu / freezer<br>
+      • Topping opsional (coklat, buah, kacang)</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campur susu/krim dengan gula hingga larut.<br>
+      2. Tambahkan vanilla atau perasa lain.<br>
+      3. Bekukan sambil diaduk berkala agar lembut.<br>
+      4. Jika sudah mengental, dinginkan lagi sebelum disajikan.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- JELLY -->
+    <div class="card" data-food-type="jelly">
+      <img src="jelly.jpg" alt="Jelly">
+      <h2>Jelly</h2>
+      <p><b>Asal Mula:</b><br>
+      Jelly sudah dikenal sejak abad pertengahan di Eropa ketika para koki membuat gel dari tulang hewan yang direbus lama. Karena prosesnya rumit, jelly dulu hanya disajikan untuk bangsawan. Setelah gelatin bubuk ditemukan pada abad ke-19, jelly menjadi lebih mudah dibuat dan akhirnya berkembang menjadi dessert warna-warni dengan rasa buah seperti yang kita kenal sekarang.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 1 bungkus bubuk jelly atau gelatin/agar<br>
+      • 400–500 ml air<br>
+      • 2–3 sdm gula (opsional, tergantung rasa)<br>
+      • Perasa atau pewarna buah (jika membuat dari gelatin polos)</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campur bubuk jelly dengan air panas.<br>
+      2. Aduk hingga larut lalu tambahkan gula.<br>
+      3. Tambahkan garam sejumput.<br>
+      4. Tuang ke cetakan.<br>
+      5. Dinginkan hingga mengeras.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- CHOCOLATE -->
+    <div class="card" data-food-type="chocolate">
+      <img src="coklat.jpg" alt="Coklat">
+      <h2>Coklat</h2>
+      <p><b>Asal Mula:</b><br>
+      Coklat berasal dari peradaban Maya dan Aztec yang membuat minuman pahit dari biji kakao. Mereka menganggap kakao sebagai hadiah dari dewa dan bijinya bahkan dijadikan alat tukar. Ketika kakao masuk ke Eropa, orang Eropa menambahkan gula dan rempah sehingga lahirlah coklat manis. Di abad ke-19, teknologi pengolahan kakao menciptakan coklat batang modern yang kemudian berkembang menjadi berbagai varian seperti dark chocolate, milk chocolate, dan white chocolate.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • Biji kakao<br>
+      • Gula<br>
+      • Cocoa butter<br>
+      • Susu (opsional)<br>
+      • vanilla atau perasa</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Sangrai biji kakao, lalu kupas kulitnya<br>
+      2. haluskan jadi pasta.<br>
+      3. Campur dengan gula dan cocoa butter dan susu.<br>
+      4. Lelehkan dan aduk hingga tekstur mengental.<br>
+      5. tuang ke cetakan dan dinginkan hingga mengeras.<br>
+      6. Setelah padat coklat siap dinikmati.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- PERMEN -->
+    <div class="card" data-food-type="candy">
+      <img src="permen.jpg" alt="Permen">
+      <h2>Permen</h2>
+      <p><b>Asal Mula:</b><br>
+      Permen sudah dikenal sejak Mesir kuno, dibuat dari madu yang dicampur buah dan kacang. Setelah gula menyebar ke Timur Tengah dan Eropa, berbagai jenis permen mulai muncul seperti permen keras, permen karamel, dan jelly candy. Inovasi mesin gula membuat industri permen berkembang pesat.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 200 g gula pasir<br>
+      • 100 ml air<br>
+      • Perasa makanan (strawberry, lemon, anggur, dll.)<br>
+      • Pewarna makanan (opsional)<br>
+      • Minyak tipis untuk olesan cetakan<br>
+      • Termometer (opsional membantu suhu)</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campurkan gula dan air ke dalam panci.<br>
+      2. Panaskan dengan api sedang tanpa diaduk sampai gula mulai larut.<br>
+      3. Ketika mulai mendidih, baru boleh diaduk perlahan agar tidak gosong.<br>
+      4. Masak hingga suhu sekitar 150°C (tahap hard crack), atau sampai cairan benar-benar kental dan jernih.<br>
+      5. Matikan api, lalu tambahkan perasa dan pewarna makanan. aduk rata.<br>
+      6. Tuang campuran gula panas ke cetakan kecil yang sudah diolesi minyak tipis.<br>
+      7. Biarkan dingin sampai mengeras.<br>
+      8. Setelah keras, keluarkan dari cetakan dan simpan dalam wadah kedap udara.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- MARSHMALLOW -->
+    <div class="card" data-food-type="marshmallow">
+      <img src="marshmallow.jpg" alt="Marshmallow">
+      <h2>Marshmallow</h2>
+      <p><b>Asal Mula:</b><br>
+      Marshmallow pertama kali dibuat oleh bangsa Mesir Kuno menggunakan getah tanaman marsh-mallow (Althaea officinalis) yang dicampur dengan madu untuk membuat manisan lembut.
+      Pada abad ke-19 di Prancis, resepnya berkembang dan getah tanaman diganti dengan gelatin sehingga teksturnya menjadi lebih empuk dan stabil.
+      diera modern, marshmallow dibuat secara massal menggunakan gula, gelatin, dan udara yang dikocok hingga menghasilkan tekstur lembut, kenyal, dan ringan seperti yang kita kenal sekarang.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 200 g gula pasir<br>
+      • 150 ml air<br>
+      • 1 sdm gelatin bubuk<br>
+      • 1 sdt ekstrak vanilla<br>
+      • 1 sdm sirup jagung / madu (opsional untuk tekstur lebih lembut)<br>
+      • Gula halus / maizena untuk taburan</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campurkan gelatin dengan sedikit air dingin, biarkan mengembang (blooming).<br>
+      2. Dalam panci, panaskan gula, sisa air, dan sirup jagung/madu. Rebus hingga gula larut dan membentuk sirup kental.<br>
+      3. Saat sirup sudah panas, tuang perlahan ke gelatin sambil terus di-mixer.<br>
+      4. Mixer adonan selama 8–10 menit hingga mengembang putih dan teksturnya ringan seperti marshmallow.<br>
+      5. Tambahkan vanilla, aduk sebentar.<br>
+      6. Siapkan loyang yang sudah ditaburi campuran gula halus + maizena.<br>
+      7. Tuang adonan marshmallow, ratakan, dan diamkan hingga set (±4 jam).<br>
+      8. Setelah mengeras, potong-potong dan baluri setiap sisi dengan gula halus agar tidak lengket.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- COFFEE -->
+    <div class="card" data-food-type="coffee">
+      <img src="coffee.jpg" alt="Coffee">
+      <h2>Coffee</h2>
+      <p><b>Asal Mula:</b><br>
+      Kopi berasal dari Ethiopia sekitar abad ke-9 dan terkenal lewat legenda penggembala bernama Kaldi yang melihat kambingnya menjadi lebih energik setelah memakan buah merah tanaman kopi.
+      dari Ethiopia, kopi menyebar ke Yaman dan Timur Tengah, lalu ke Turki, Eropa, hingga akhirnya ke seluruh dunia.
+      di era modern, kopi berkembang menjadi berbagai jenis minuman, metode seduh, serta varian biji yang diproses dengan teknik berbeda sehingga menghasilkan cita rasa unik.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • Biji kopi bubuk (Arabica/Robusta, sesuaikan selera)<br>
+      • 200 ml air panas (90–96°C)<br>
+      • Gula / susu</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Siapkan 1–2 sdm bubuk kopi sesuai selera.<br>
+      2. Panaskan air hingga suhu 90–96°C.<br>
+      3. Tuang air panas ke bubuk kopi secara perlahan.<br>
+      4. Aduk dan diamkan 2–3 menit agar rasa keluar sempurna.<br>
+      5. Saring (opsional) atau langsung sajikan sebagai kopi hitam.<br>
+      6. Tambahkan gula, susu, atau es jika ingin variasi rasa.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- PIZZA -->
+    <div class="card" data-food-type="pizza">
+      <img src="pizza.jpg" alt="Pizza">
+      <h2>Pizza</h2>
+      <p><b>Asal Mula:</b><br>
+      Pizza berasal dari Italia, khususnya Naples, pada abad ke-18. awalnya berupa roti pipih sederhana yang diberi minyak, bawang putih, dan rempah.
+      Pizza modern mulai dikenal saat roti pipih itu diberi tomat dan keju mozzarella, lalu menjadi hidangan favorit masyarakat kelas pekerja Napoli.
+      menu ini menjadi mendunia setelah imigran Italia membawanya ke Amerika, dan sejak itu muncul banyak variasi seperti pizza Margherita, Pepperoni, Neapolitan, Chicago Deep Dish, hingga pizza modern dengan topping kreatif.</p>
+
+      <p><b>Bahan-bahan Adonan:</b><br>
+      • 250 g tepung terigu protein sedang<br>
+      • 1 sdt ragi instan<br>
+      • 1 sdt gula<br>
+      • 1/2 sdt garam<br>
+      • 150 ml air hangat<br>
+      • 2 sdm minyak zaitun</p>
+
+      <p><b>Bahan Sauce:</b><br>
+      • 3 sdm saus tomat<br>
+      • 1 siung bawang putih cincang<br>
+      • 1/2 sdt oregano / basil<br>
+      • 1/4 sdt garam<br>
+      • 1/4 sdt lada</p>
+
+      <p><b>Bahan Topping:</b><br>
+      • Keju mozzarella<br>
+      • Sosis / pepperoni<br>
+      • Jamur<br>
+      • Paprika<br>
+      • Jagung<br>
+      • Daging cincang<br>
+      • Apapun sesuai selera</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campurkan ragi, gula, dan air hangat. Diamkan 5 menit sampai berbuih.<br>
+      2. Masukkan tepung dan garam ke mangkuk besar.<br>
+      3. Tuang campuran ragi, lalu tambahkan minyak zaitun.<br>
+      4. Uleni 8–10 menit sampai adonan elastis.<br>
+      5. Tutup dan diamkan 1 jam hingga mengembang 2x lipat.<br>
+      6. Kocok adonan untuk mengeluarkan udara, lalu bentuk bulat pipih.<br>
+      7. Oleskan saus tomat di atas adonan.<br>
+      8. Tambahkan topping sesuai selera (keju, sosis, dll).<br>
+      9. Panggang 12–15 menit dalam oven suhu 200°C hingga matang dan keju meleleh.<br>
+      10. Angkat dan siap disajikan panas-panas.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- ROTI -->
+    <div class="card" data-food-type="bread">
+      <img src="roti.jpg" alt="Roti">
+      <h2>Roti</h2>
+      <p><b>Asal Mula:</b><br>
+      Roti adalah salah satu makanan tertua di dunia dan diperkirakan sudah ada sejak 12.000 tahun lalu pada masa Mesir Kuno.
+      awalnya roti dibuat dari biji-bijian yang dihancurkan dan dicampir air, lalu dipanggang di atas batu panas.
+      Revolusi besar terjadi ketika orang Mesir menemukan proses fermentasi alami, sehingga roti dapat mengembang dan menjadi lebih lembut.seiring waktu, roti menyebar ke Eropa, Asia, dan seluruh dunia, dengan berbagai variasi seperti roti tawar, baguette, brioche, roti manis, hingga roti sobek modern.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 300 g tepung terigu protein tinggi<br>
+      • 1 sdm gula<br>
+      • 1/2 sdt garam<br>
+      • 1 sdt ragi instan<br>
+      • 170 ml susu hangat / air hangat<br>
+      • 30 g mentega<br>
+      • 1 butir telur (opsional untuk tekstur lebih lembut)<br>
+
+      Topping / Isi (opsional):
+      • Coklat<br>
+      • Keju<br>
+      • Selai<br>
+      • Cream cheese<br>
+      • Kismis<br>
+      • Meses<br>
+      • Apapun sesuai selera</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campurkan ragi, gula, dan sedikit susu hangat. Diamkan 5 menit sampai berbuih.<br>
+      2. Masukkan tepung, garam, dan telur ke mangkuk besar.<br>
+      3. Tuang campuran ragi ke dalam adonan.<br>
+      4. Aduk dan uleni hingga setengah kalis.<br>
+      5. Tambahkan mentega, lalu uleni lagi 10–15 menit hingga kalis elastis.<br>
+      6. Tutup adonan dengan kain, diamkan 1 jam sampai mengembang 2x lipat.<br>
+      7. Kempeskan adonan, bentuk sesuai selera (bulat, panjang, isi coklat, dll).<br>
+      8. Diamkan lagi 20–30 menit.<br>
+      9. Olesi permukaan roti dengan susu atau telur agar mengkilap.<br>
+      10.Panggang pada suhu 170–180°C selama 15–20 menit hingga matang.<br>
+      11.Dinginkan sebentar lalu sajikan.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- PASTA -->
+    <div class="card" data-food-type="pasta">
+      <img src="pasta.jpg" alt="Pasta">
+      <h2>Pasta</h2>
+      <p><b>Asal Mula:</b><br>
+      Pasta berasal dari Italia dan telah menjadi makanan pokok sejak ratusan tahun lalu.
+      banyak sejarahwan percaya pasta sudah dikenal sejak zaman Romawi Kuno, tapi bentuk pasta modern mulai berkembang pada abad pertengahan di Italia Selatan.
+      Pasta kemudian menyebar ke seluruh dunia melalui perdagangan dan migrasi orang Italia, dan kini memiliki ratusan bentuk seperti spaghetti, penne, fettuccine, fusilli, hingga lasagna.
+      hidangan pasta juga berkembang dengan berbagai saus populer seperti bolognese, carbonara, alfredo, pesto, dan marinara.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      Untuk Pasta (homemade):<br>
+      • 200 g tepung terigu<br>
+      • 2 butir telur<br>
+      • 1/2 sdt garam<br>
+      • 1 sdm minyak zaitun (opsional)<br>
+      
+      Saus (opsional):<br>
+      • 3 sdm saus tomat<br>
+      • 1 siung bawang putih cincang<br>
+      • 1/2 siung bawang bombay cincang<br>
+      • 1/2 sdt oregano / basil<br>
+      • Garam & lada secukupnya<br>
+      • Sedikit minyak zaitun<br>
+
+      Saus Creamy (Carbonara/Alfredo):<br>
+      • 100 ml susu / cream<br>
+      • 1 sdm keju parmesan<br>
+      • 1 butir telur (untuk carbonara)<br>
+      • Sedikit lada hitam</p>
+
+      <p><b>Cara Membuat Pasta:</b><br>
+      Membuat Pasta Homemade (opsional):<br>
+      1. Campurkan tepung, garam, dan buat lubang di tengah.<br>
+      2. Masukkan telur dan minyak zaitun.<br>
+      3. Aduk hingga menjadi adonan.<br>
+      4. Uleni hingga elastis ±10 menit.<br>
+      5. Diamkan 20–30 menit.<br>
+      6. Giling dan potong sesuai bentuk (spaghetti, fettuccine, dll).<br>
+      7. Rebus dalam air garam 3–5 menit hingga al dente.<br>
+
+      Membuat Saus & Menggabungkan Pasta:<br>
+      1. Saus Tomat:<br>
+      2. Tumis bawang putih dan bombay hingga harum.<br>
+      3.Masukkan saus tomat, oregano, garam, dan lada.<br>
+      4.Masak hingga sedikit mengental.<br>
+      5.Masukkan pasta rebus, aduk rata.<br>
+      
+      Saus Creamy:<br>
+      1. Panaskan cream/susu dalam wajan kecil.
+      2. Tambahkan keju parmesan dan lada.
+      3. Untuk carbonara, matikan api lalu masukkan 1 telur, aduk cepat agar tidak menggumpal.
+      4. Campur dengan pasta rebus, aduk rata.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- CHEESECAKE -->
+    <div class="card" data-food-type="cheesecake">
+      <img src="cheesecake.jpg" alt="Cheesecake">
+      <h2>Cheesecake</h2>
+      <p><b>Asal Mula:</b><br>
+      Cheesecake dipercaya berasal dari Yunani Kuno sekitar 2000 tahun lalu dan awalnya dibuat dari keju segar sederhana, madu, dan gandum.
+      ketika Romawi menaklukkan Yunani, mereka mengadaptasi resepnya dan membawanya ke seluruh Eropa.
+      pada abad ke-18, cheesecake mulai berevolusi menjadi lebih lembut, dan ketika krim keju (cream cheese) ditemukan di Amerika pada abad ke-19, lahirlah cheesecake modern yang kita kenal sekarang.
+      kini ada berbagai jenis cheesecake, termasuk New York Cheesecake, Japanese Cheesecake, hingga no-bake cheesecake yang mudah dibuat.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      Untuk Crust (dasar):<br>
+      • 150 g biskuit (Marie / graham cracker)<br>
+      • 60 g mentega leleh<br>
+      • 1 sdm gula pasir (opsional)<br>
+      
+      Untuk Filling (isi):<br>
+      • 200 g cream cheese<br>
+      • 100 ml whipped cream / fresh cream<br>
+      • 50 g gula<br>
+      • 1 butir telur (untuk baked cheesecake)<br>
+      • 1 sdt vanilla<br>
+      • 1 sdm lemon juice (opsional untuk rasa segar)<br>
+      
+      Topping (opsional):<br>
+      • Selai blueberry / strawberry<br>
+      • Buah segar<br>
+      • Caramel<br>
+      • Choco ganache</p>
+
+      <p><b>Cara Membuat:</b><br>
+      Membuat Crust:<br>
+      1. Hancurkan biskuit sampai halus.<br>
+      2. Campurkan dengan mentega leleh hingga menyerupai pasir basah.<br>
+      3. Tekan ke dasar loyang hingga padat.<br>
+      4. Simpan di kulkas selama 10–15 menit.<br>
+      
+      Membuat Filling:<br>
+      1. Kocok cream cheese dan gula hingga lembut.<br>
+      2. Tambahkan telur, vanilla, dan lemon juice.<br>
+      3. Masukkan whipped cream, aduk rata.<br>
+      4. Tuang adonan ke atas crust.<br>
+      5. Panggang 150–160°C selama 40–50 menit sampai set namun bagian tengah masih sedikit bergetar.<br>
+      6. Dinginkan terlebih dahulu lalu simpan di kulkas minimal 3 jam.<br>
+      
+      Untuk No-Bake Cheesecake:<br>
+      1. kocok cream cheese dan gula hingga halus.<br>
+      2. Tambahkan whipped cream dan vanilla.<br>
+      3. Aduk hingga mengembang dan creamy.<br>
+      4. uang adonan ke atas crust.<br>
+      5. Dinginkan 3–4 jam hingga set tanpa perlu dipanggang.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+    <!-- WAFFLE -->
+    <div class="card" data-food-type="waffle">
+      <img src="waffle.jpg" alt="Waffle">
+      <h2>Waffle</h2>
+      <p><b>Asal Mula:</b><br>
+      Waffle berasal dari Belgia dan sudah ada sejak abad pertengahan. Awalnya dibuat dari adonan sederhana yang dimasak di antara dua lempengan besi bermotif.
+      pada abad ke-18 hingga ke-19, waffle mulai berkembang menjadi makanan sarapan populer di Eropa.
+      ketika diperkenalkan ke Amerika, waffle menjadi sangat populer dan muncul berbagai varian seperti Belgian waffle, Liege waffle, dan waffle crispy yang sering disajikan dengan sirup, buah, es krim, atau cokelat.
+      kini waffle dikenal sebagai hidangan manis maupun gurih dengan tekstur khas: renyah di luar, lembut di dalam.</p>
+
+      <p><b>Bahan-bahan:</b><br>
+      • 200 g tepung terigu<br>
+      • 2 butir telur<br>
+      • 250 ml susu cair<br>
+      • 50 g gula<br>
+      • 1 sdt baking powder<br>
+      • 1/2 sdt vanila<br>
+      • 50 g mentega leleh<br>
+      • Sejumput garam<br>
+      
+      Topping (opsional):<br>
+      • Madu / maple syrup<br>
+      • Buah segar<br>
+      • Es krim<br>
+      • Cokelat leleh<br>
+      • Whipped cream</p>
+
+      <p><b>Cara Membuat:</b><br>
+      1. Campurkan tepung, baking powder, gula, dan garam dalam satu wadah.<br>
+      2. Di wadah lain, kocok telur, susu, dan vanilla hingga rata.<br>
+      3. Tuang campuran basah ke campuran kering sambil diaduk perlahan.<br>
+      4. Tambahkan mentega leleh, aduk hingga adonan halus.<br>
+      5. Panaskan mesin/cetakan waffle dan olesi sedikit minyak atau mentega.<br>
+      6. Tuang adonan ke cetakan, tutup, dan masak hingga waffle berwarna keemasan.<br>
+      7. Sajikan dengan topping opsional, madu.buah,eskrim,coklat,wipped cream.</p>
+      <div class="view-more">Klik untuk lihat detail →</div>
+    </div>
+
+  </div>
+
+  <!-- DETAIL VIEW (Tersembunyi awalnya) -->
+  <div id="detailContainer"></div>
+
+  <footer>
+    <p>Website by Kelompok 5 • Food Gallery Retro 🍞✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
